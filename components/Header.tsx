@@ -5,13 +5,13 @@ import { User, Bell } from 'lucide-react-native';
 const Header = () => {
     return (
         <View style={styles.container}>
-            <TouchableOpacity style={styles.iconButton}>
+            <TouchableOpacity style={styles.iconButton} accessibilityLabel="User Profile" accessibilityRole="button">
                 <User size={20} color="white" />
             </TouchableOpacity>
 
             <Text style={styles.title}>Summary</Text>
 
-            <TouchableOpacity style={styles.iconButton}>
+            <TouchableOpacity style={styles.iconButton} accessibilityLabel="Notifications" accessibilityRole="button">
                 <Bell size={20} color="white" />
             </TouchableOpacity>
         </View>
