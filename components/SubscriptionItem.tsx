@@ -3,7 +3,13 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 
 const SubscriptionItem = ({ name, detail, price, type, frequency, brandColor = '#000', onPress }) => {
     return (
-        <TouchableOpacity style={styles.container} onPress={onPress}>
+        <TouchableOpacity
+            style={styles.container}
+            onPress={onPress}
+            activeOpacity={0.7}
+            accessibilityRole="button"
+            accessibilityLabel={`Subscription for ${name}`}
+        >
             <View style={[styles.logoContainer, { borderColor: brandColor }]}>
                 <Text style={[styles.logoText, { color: brandColor }]}>{name[0]}</Text>
             </View>
