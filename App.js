@@ -118,8 +118,8 @@ export default function App() {
             {/* EMPTY STATE */}
             {subscriptions.length === 0 && (
               <View style={{ alignItems: 'center', marginTop: 40, opacity: 0.5 }}>
-                <Text>No subscriptions yet.</Text>
-                <Text>Tap + to add one.</Text>
+                <Text style={{ color: 'white', marginBottom: 4 }}>No subscriptions yet.</Text>
+                <Text style={{ color: 'white' }}>Tap + to add one.</Text>
               </View>
             )}
 

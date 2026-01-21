@@ -6,13 +6,13 @@ const Header = () => {
     return (
         <View style={styles.container}>
             <TouchableOpacity style={styles.iconButton}>
-                <User size={20} color="black" />
+                <User size={20} color="white" />
             </TouchableOpacity>
 
             <Text style={styles.title}>Summary</Text>
 
             <TouchableOpacity style={styles.iconButton}>
-                <Bell size={20} color="black" />
+                <Bell size={20} color="white" />
             </TouchableOpacity>
         </View>
     );
