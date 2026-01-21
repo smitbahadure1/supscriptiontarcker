@@ -5,6 +5,10 @@ import { Calendar, FileText } from 'lucide-react-native';
 import { getMonthlyCost } from '../utils/calculations';
 import { parseISO, isSameMonth } from 'date-fns';
 
+/**
+ * Component to display summary statistics for subscriptions
+ * Shows total monthly cost and amount due in current month
+ */
 const SummaryCards = ({ subscriptions = [] }) => {
 
     // Calculate totals
