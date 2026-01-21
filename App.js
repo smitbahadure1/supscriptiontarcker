@@ -1,3 +1,7 @@
+/**
+ * Main Application Entry Point
+ * Handles navigation state and global theme wrapper
+ */
 import React from 'react';
 import { StyleSheet, View, ScrollView, Text, StatusBar } from 'react-native';
 import Header from './components/Header';
