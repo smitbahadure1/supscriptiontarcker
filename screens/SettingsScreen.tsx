@@ -6,6 +6,7 @@ const SettingsScreen = ({ onBack }) => {
     const [notificationsEnabled, setNotificationsEnabled] = React.useState(true);
     const [faceIdEnabled, setFaceIdEnabled] = React.useState(true);
 
+    // Configuration for settings menu sections
     const sections = [
         {
             title: 'General',
